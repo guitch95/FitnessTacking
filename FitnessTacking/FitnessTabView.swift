@@ -17,6 +17,12 @@ struct FitnessTabView: View {
             Tab("Charts", systemImage: "chart.bar.xaxis", value: 1) {
                 HistoricDataView()
             }
+            Tab("Infos", systemImage: "gear", value: 2) {
+                HistoricDataView()
+            }
+            Tab("Account", systemImage: "person", value: 3) {
+                HistoricDataView()
+            }
         }
     }
 }

@@ -11,7 +11,7 @@ struct ActivityCardView: View {
     @State var activity: Activity
     var body: some View {
         ZStack {
-            Color(uiColor: .systemGray6)
+            Color(.gray.opacity(0.1))
                 .clipShape(RoundedRectangle(cornerRadius: 15))
             VStack {
                 HStack(alignment: .top) {
